@@ -1,10 +1,15 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const Footer = () => {
+    const today = new Date();
+    const year = today.getFullYear();
     return (
-        <div>
-            <h2>This is Footer</h2>
-        </div>
+        <>
+            <Container>
+                <p className='text-center'> <small>Copyright@{year} || <strong>Electric Power</strong> </small></p>
+            </Container>
+        </>
     );
 };
 

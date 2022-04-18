@@ -6,6 +6,7 @@ const ServiceDetail = () => {
     return (
         <div>
             <h2>This is service details {serviceId} </h2>
+     
         </div>
     );
 };

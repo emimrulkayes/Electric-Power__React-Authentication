@@ -18,6 +18,7 @@ const Header = () => {
                         <NavLink to='/'>Home</NavLink>
                         <NavLink to='/about'>About</NavLink>
                         <NavLink to='/services'>Services</NavLink>
+                        <NavLink to='/blogs'>Blogs</NavLink>
                         <NavLink to='/login'>LogIn</NavLink>
                     </Nav>
                     </Navbar.Collapse>

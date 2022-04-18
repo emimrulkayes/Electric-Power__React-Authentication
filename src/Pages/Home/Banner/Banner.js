@@ -6,15 +6,11 @@ import banner3 from '../../../images/banner/banner3.jpg';
 import './Banner.css';
 
 const Banner = () => {
-    const [index, setIndex] = useState(0);
-
-    const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
-    };
+ 
     return (
         <div>
             
-            <Carousel className='banner-slider' activeIndex={index} onSelect={handleSelect}>
+            <Carousel className='banner-slider'>
                 <Carousel.Item>
                     <Figure className='m-0'>
                         <span className='banner-ovarlay'></span>

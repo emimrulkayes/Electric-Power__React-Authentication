@@ -8,8 +8,9 @@ const Service = ({service}) => {
     const navigate = useNavigate();
 
     const navigateToServiceDetail = id => {
-        navigate(`./service/${id}`);
+        navigate(`/service/${id}`);
     }
+
     return (
         <Col xs={12} sm={6} md={6} lg={4} >
             <CardGroup>
@@ -26,7 +27,6 @@ const Service = ({service}) => {
                         <button onClick={() => navigateToServiceDetail(id)} className='booking-btn' type="button"><small>Book: {name} </small></button>
                     </Card.Footer>
                 </Card>
-
             </CardGroup>
         </Col>
     );

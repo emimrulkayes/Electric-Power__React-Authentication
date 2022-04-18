@@ -6,11 +6,11 @@ import BlogDetail from './Pages/BlogDetail/BlogDetail';
 import Blogs from './Pages/Home/Blogs/Blogs';
 import Home from './Pages/Home/Home/Home';
 import Services from './Pages/Home/Services/Services';
-import Login from './Pages/Login/Login';
+import Login from './Pages/Login/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
-import Register from './Pages/Register/Register';
 import Footer from './Shared/Footer/Footer';
 import Header from './Shared/Header/Header';
+import Register from './Pages/Login/Register/Register';
 
 function App() {
   return (

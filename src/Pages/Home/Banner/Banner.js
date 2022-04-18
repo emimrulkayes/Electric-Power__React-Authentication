@@ -8,8 +8,7 @@ import './Banner.css';
 const Banner = () => {
  
     return (
-        <div>
-            
+        <>
             <Carousel className='banner-slider'>
                 <Carousel.Item>
                     <Figure className='m-0'>
@@ -47,7 +46,7 @@ const Banner = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-        </div>
+        </>
     );
 };
 

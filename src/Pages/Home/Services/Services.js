@@ -14,7 +14,7 @@ const Services = () => {
     }, [])
 
     return (
-        <Container>
+        <Container className='pt-5'>
             <h2 className='section-title mt-5'> My Awesome <span>Services</span> </h2>
             <Row>
                 {

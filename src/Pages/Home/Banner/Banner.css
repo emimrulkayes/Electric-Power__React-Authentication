@@ -3,6 +3,9 @@
 .banner-slider {
     position: relative;
 }
+.banner-slider .carousel-indicators {
+    display: none;
+}
 
 .banner-ovarlay {
     content: '';

@@ -21,8 +21,8 @@ const Banner = () => {
                         <img className="d-block w-100 h-100" src={banner1} alt="First slide" />
                     </Figure>
                     <Carousel.Caption className='banner-caption'>
-                        <h1>Fast Electrical Service Provider</h1>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h1 className='title'>TrobleShooting and repairing</h1>
+                        <p className='banner-desc'>Here provide reliable and affordable services.</p>
                         <button className='contact-btn btn' type="button">Contact Now</button>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -33,8 +33,8 @@ const Banner = () => {
                         <img className="d-block w-100" src={banner2} alt="Second slide" />
                     </Figure>
                     <Carousel.Caption className='banner-caption'>
-                        <h1>Fast Electrical Service Provider</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h1 className='title'>Fast Electrical Service Provider</h1>
+                        <p className='banner-desc'>Here provide reliable and affordable services.</p>
                         <button className='contact-btn btn' type="button">Contact Now</button>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -45,8 +45,8 @@ const Banner = () => {
                         <img className="d-block w-100" src={banner3} alt="Third slide" />                    
                     </Figure>
                     <Carousel.Caption className='banner-caption'>
-                        <h1>Fast Electrical Service Provider</h1>
-                        <p> Praesent commodo cursus magna, vel scelerisque nisl consectetur. </p>
+                        <h1 className='title'> Fast and Reliable services</h1>
+                        <p className='banner-desc'>Here provide reliable and affordable services. </p>
                         <button className='contact-btn btn' type="button">Contact Now</button>
                     </Carousel.Caption>
                 </Carousel.Item>

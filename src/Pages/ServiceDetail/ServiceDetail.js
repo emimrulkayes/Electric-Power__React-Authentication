@@ -1,9 +1,11 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
 const ServiceDetail = () => {
+    const {serviceId} = useParams();
     return (
         <div>
-            <h2>This is service details</h2>
+            <h2>This is service details {serviceId} </h2>
         </div>
     );
 };

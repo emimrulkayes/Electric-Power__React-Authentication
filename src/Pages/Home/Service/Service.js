@@ -7,7 +7,7 @@ const Service = ({service}) => {
     const {id, name, img, description, price} = service;
     const navigate = useNavigate();
 
-    const navigateToServiceDetail = id => {
+    const navigateToBookService = id => {
         navigate(`/service/${id}`);
     }
 
@@ -24,7 +24,7 @@ const Service = ({service}) => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <button onClick={() => navigateToServiceDetail(id)} className='booking-btn' type="button"><small>Book: {name} </small></button>
+                        <button onClick={() => navigateToBookService(id)} className='booking-btn' type="button">Book Now</button>
                     </Card.Footer>
                 </Card>
             </CardGroup>

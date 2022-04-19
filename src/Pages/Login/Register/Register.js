@@ -24,10 +24,10 @@ const Register = () => {
     }
 
     if(user){
-        navigate('/service')
+        navigate('/')
     }
 
-    const handleCreateUser = event => {
+    const handleUserRegister = event => {
         event.preventDefault();
         if(password !== confirmPassword){
             setError("Your two password didn't match");
@@ -44,7 +44,7 @@ const Register = () => {
         <Container className='form-container'>
             <Row className='login-form'>
                 <h2 className='form-title text-center'> Register </h2>
-                <Form onSubmit={handleCreateUser} className='p-0 '>
+                <Form onSubmit={handleUserRegister} className='p-0 '>
                     <Form.Group className="input-group mb-3" controlId="formBasicEmail">
                         <Form.Label>Email address</Form.Label>
                         <Form.Control onBlur={handleEmailBlur} className='rounded' type="email" required />

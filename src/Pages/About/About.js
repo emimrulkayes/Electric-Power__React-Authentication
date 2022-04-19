@@ -1,10 +1,14 @@
 import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import './About.css';
 
 const About = () => {
     return (
-        <div>
-            <h2>This is About us</h2>
-        </div>
+        <Container className='container-height'>
+            <Row>
+               <h1 className='text-center'>About Page</h1>
+            </Row>
+        </Container>
     );
 };
 

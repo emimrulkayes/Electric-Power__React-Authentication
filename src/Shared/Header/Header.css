@@ -11,6 +11,7 @@
     font-weight: 500;
     color: #222222;
     transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
 }
 .nav-menu a:hover {
     color: #ff6600;

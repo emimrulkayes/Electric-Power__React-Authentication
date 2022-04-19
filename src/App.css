@@ -1,1 +1,29 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    position: relative;
+}
+html {
+    height: 100%;
+
+}
+
+.container-height {
+    height: 75vh;
+}
+
+button {
+    box-shadow: none;
+    outline: none;
+    border-color: transparent;
+}
+button:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: transparent;
+}

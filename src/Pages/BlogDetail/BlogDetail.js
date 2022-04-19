@@ -8,7 +8,7 @@ const BlogDetail = () => {
     return (
         <Container className='blog-container'>
             <Row>
-                <h2 className='text-center'> Welcom to blog details {blogId} </h2>
+                <h2 className='text-center'> Coming soon blog details {blogId} </h2>
             </Row>
         </Container>
     );

@@ -1,5 +1,4 @@
 
-
 .banner-slider {
     position: relative;
 }
@@ -19,8 +18,8 @@
 }
 
 .banner-caption {
+
     z-index: 9;
-    bottom: 5rem;
 }
 .banner-caption .title {
     font-size: 40px;
@@ -54,4 +53,19 @@
     background-color: transparent;
     border-color: #ff6600;
     color: #FFF;
+}
+
+@media (max-width: 575.98px) {
+    .banner-slider .banner-caption {
+        top: 5%;
+        z-index: 9;
+        
+    }
+    .banner-slider .banner-caption .title {
+        font-size: 26px;
+        
+    }
+    .banner-slider .banner-caption .contact-btn {
+        display: none;
+    }
 }

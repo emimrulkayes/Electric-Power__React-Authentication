@@ -1,24 +1,24 @@
 [
     {
         "id": 7,
-        "name": "Air Conditioning",
+        "name": "How to Install a Ceiling Fan Where No Fixture Exists",
         "price": "3100",
-        "description": "Efficiency Heating & Cooling is the go-to HVAC contractor that has stocked and ready service vehicles for AC repair! I get to you fast, and ready for any type of air conditioning repair.",
-        "img": "https://i.ibb.co/fxHZswj/air-Service2.png"
+        "description": "Electricity is arguably the most valuable resource we have in our modern society. Without ...",
+        "img": "https://i.ibb.co/6sfBYmx/blog1.jpg"
     },
     {
         "id": 8,
-        "name": "Security Systems",
+        "name": "How to Get Electricity to a Kitchen Island",
         "price": "1350",
-        "description": "I Provide high-performance infrared and dual technology sensors that complement the suite of outdoor intrusion detection solutions and are ideal as an additional security layering strategy.",
-        "img": "https://i.ibb.co/0f68JBp/cctv1.png"
+        "description": "Electricity is arguably the most valuable resource we have in our modern society. Without ...",
+        "img": "https://i.ibb.co/sVbTcWX/blog2.jpg"
     },
     {
         "id": 9,
-        "name": "Air Conditioning",
+        "name": "How to Install Landscape Lighting and Boost Home Value",
         "price": "1800",
-        "description": "I can also replace or repair heat pumps, ductless mini splits, humidifiers, programmable thermostats. Whatever your heating and cooling needs are Efficiency Heating & Cooling can handle them all.",
-        "img": "https://i.ibb.co/f43ygGh/air-Service1.png"
+        "description": "Electricity is arguably the most valuable resource we have in our modern society. Without ...",
+        "img": "https://i.ibb.co/tM6SGGX/blog3.jpg"
     }
     
 ]

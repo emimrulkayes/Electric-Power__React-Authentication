@@ -1,10 +1,17 @@
-
+.main-nav{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: #FFFFFF;
+}
 .brand-logo {
     width: 130px;
     height: 60px;
 }
 
-.nav-menu a {
+.nav-menu {
+    align-items: center;
+}
+
+.nav-menu .link {
     text-decoration: none;
     margin-right: 25px;
     font-size: 16px;
@@ -15,4 +22,34 @@
 }
 .nav-menu a:hover {
     color: #ff6600;
+}
+
+.active-link {
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    color: #ff6600;
+}
+
+.nav-menu button.user-control-btn {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 5px 15px;
+    border: 1px solid #ff6600;
+    background: transparent;
+}
+.nav-menu button.user-control-btn:focus {
+    box-shadow: none;
+    outline: none;
+}
+.nav-menu button.user-control-btn a {
+    margin: 0;
 }

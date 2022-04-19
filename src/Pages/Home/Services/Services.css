@@ -6,6 +6,18 @@
     color: #222222;
     margin-bottom: 50px;
     text-transform: uppercase;
+    position: relative;
+}
+.section-title::before {
+    content: '';
+    width: 10%;
+    height: 5px;
+    border-radius: 9rem;
+    background-color: #ff6600;
+    position: absolute;
+    bottom: -10px;
+    left: 45%;
+    right: 45%;
 }
 .section-title span {
     color: #ff6600;

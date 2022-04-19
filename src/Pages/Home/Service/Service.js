@@ -8,7 +8,7 @@ const Service = ({service}) => {
     const navigate = useNavigate();
 
     const navigateToBookService = id => {
-        navigate(`/service/${id}`);
+        navigate(`/booking/${id}`);
     }
 
     return (

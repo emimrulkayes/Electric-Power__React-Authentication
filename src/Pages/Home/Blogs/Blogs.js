@@ -15,8 +15,8 @@ const Blogs = () => {
 
     return (
         <Container className='pt-5'>
-            <Row className='text-center mt-5 mb-4'>
-                <h2 className='section-title mb-2'> Latest <span>News</span> </h2>
+            <Row className='section-top text-center mt-5 mb-4'>
+                <h2 className='section-title mb-4'> Latest <span>News</span> </h2>
                 <p>Services that I offers for my great customer</p>
             </Row>
             <Row>

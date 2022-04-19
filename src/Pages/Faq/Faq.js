@@ -4,45 +4,35 @@ import './Faq.css';
 
 const Faq = () => {
     return (
-        <Container className='container-height'>
+        <Container className='faq-container'>
             <Row>
-                <Accordion className='faq-container my-5 p-0'>
+                <div className='section-top mt-5 mb-5'>
+                    <h2 className='section-title mb-4'> frequently asked question </h2>
+                </div>
+                <Accordion className='faq-container mt-5 p-0'>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header className='faq-title'>Difference between authorization and authentication?</Accordion.Header>
                         <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                        est laborum.
+                        <h5>Authorization:</h5>
+                        The authorization is a process utilized in an app that helps in controlling the informational access and limiting actions performed by users. <br/><br/>
+                        <h5>Authentication:</h5>
+                        The authentication server generates a JSON Web Token using a private key and then sends the JSON Web Token back to your React app. Your React app stores this JSON Web Token and sends it to your backend server whenever your user needs to make a request.
+                        
                         </Accordion.Body>
                     </Accordion.Item>
 
                     <Accordion.Item eventKey="1">
                         <Accordion.Header className='faq-title'>Why are you using firebase? What other options do you have to implement authentication?</Accordion.Header>
                         <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                        est laborum.
+                        Firebase is a general-purpose very easy-to-use API and easy the features. it's very easy to use and, I can easily build a Project. It has a lot of different products that cover much of what's needed to build a project. It would take a lot of time to describe the complete set of situations where Firebase can be helpful.
                         </Accordion.Body>
                     </Accordion.Item>
 
                     <Accordion.Item eventKey="2">
-                        <Accordion.Header className='faq-title'>What other services does firebase provide other than authentication</Accordion.Header>
+                        <Accordion.Header className='faq-title'>What other services does firebase provide other than authentication?</Accordion.Header>
                         <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                        est laborum.
+                        There are many services which Firebase provides, Most useful of them are: <br/>
+                        Cloud Firestore, Cloud Functions, Authentication, Hosting, Cloud Storage, Google Analytics, Predictions, Cloud Messaging.
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

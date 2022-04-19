@@ -1,4 +1,6 @@
-
 .footer-container {
+    padding-top: 100px;
+}
+.footer-content {
     background: #f60;
 }

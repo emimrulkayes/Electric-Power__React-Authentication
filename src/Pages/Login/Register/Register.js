@@ -1,10 +1,17 @@
 import React, { useState } from 'react';
 import { Button, Container, Form, Row } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import auth from '../../../firebase.init'
+import { useCreateUserWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
+import GoogleLogo from '../../../images/GoogleLogo.png';
 
 const Register = () => {
+
+    // Google athentication 
+  
+    const [signInWithGoogle,] = useSignInWithGoogle(auth);
+
+
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
@@ -65,8 +72,10 @@ const Register = () => {
                 </Form>
                 <Form.Text> Already have an account? <Link className='form-link' to="/login">Login</Link> </Form.Text>
                 <Form.Text className='alternative-line'> or </Form.Text>
-                <Button className='submit-google-btn rounded' variant="primary" type="submit"> Continue with google </Button>
-            
+                <Button  onClick={() => signInWithGoogle()} className='submit-google-btn rounded' variant="primary" type="submit">
+                    <img src={GoogleLogo} alt="Google" />
+                    Continue with google 
+                </Button>            
                
             </Row>
         </Container>

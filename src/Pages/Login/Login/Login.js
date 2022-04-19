@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Container, Form, Row } from 'react-bootstrap';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSignInWithEmailAndPassword, useSignInWithGoogle} from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import './Login.css';
@@ -9,6 +9,8 @@ import GoogleLogo from '../../../images/GoogleLogo.png';
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+
+    const [signInWithGoogle] = useSignInWithGoogle(auth);
 
     const [
         signInWithEmailAndPassword,
@@ -60,7 +62,7 @@ const Login = () => {
                 </Form>
                 <Form.Text> New to Electric Power? <Link className='form-link' to="/register">Create an account</Link> </Form.Text>
                 <Form.Text className='alternative-line'> or </Form.Text>
-                <Button className='submit-google-btn rounded' variant="primary" type="submit">
+                <Button onClick={() => signInWithGoogle()} className='submit-google-btn rounded' variant="primary" type="submit">
                     <img src={GoogleLogo} alt="Google" />
                     Continue with google 
                 </Button>

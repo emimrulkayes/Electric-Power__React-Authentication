@@ -8,7 +8,6 @@ import GoogleLogo from '../../../images/GoogleLogo.png';
 const Register = () => {
 
     // Google athentication 
-  
     const [signInWithGoogle,] = useSignInWithGoogle(auth);
 
 
@@ -72,7 +71,7 @@ const Register = () => {
                 </Form>
                 <Form.Text> Already have an account? <Link className='form-link' to="/login">Login</Link> </Form.Text>
                 <Form.Text className='alternative-line'> or </Form.Text>
-                <Button  onClick={() => signInWithGoogle()} className='submit-google-btn rounded' variant="primary" type="submit">
+                <Button onClick={() => signInWithGoogle()} className='submit-google-btn rounded' variant="primary" type="submit">
                     <img src={GoogleLogo} alt="Google" />
                     Continue with google 
                 </Button>            
